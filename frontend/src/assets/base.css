@@ -1,0 +1,80 @@
+:root {
+	--primary: #004d74;
+	--cian: #025e73;
+	--locate: green;
+	--cian-transparent: #004d743f;
+	--dark: #0d0d0d;
+	--bg-body: #efefef;
+	--red: red;
+	--light: #fff;
+	--light-ice: #fafafa;
+	--gray-disable: #7e7f84;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+svg {
+	height: 22px;
+}
+
+body {
+	background-color: var(--bg-body);
+}
+
+.text-primary {
+	color: var(--primary);
+}
+
+.text-cian {
+	color: var(--cian);
+}
+
+.text-dark {
+	color: var(--dark);
+}
+
+.bg-primary {
+	background-color: var(--primary);
+}
+
+.bg-secondary {
+	background-color: var(--light-ice);
+}
+
+.bg-cian {
+	background-color: var(--cian);
+}
+
+.generous.active {
+	background-color: var(--cian-transparent);
+	color: var(--primary);
+}
+
+.border-primary {
+	border-color: var(--primary);
+}
+
+input::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
